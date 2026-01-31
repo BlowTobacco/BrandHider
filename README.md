@@ -23,6 +23,16 @@ A lightweight **Velocity** plugin that hides and customizes your server brand:
 
 ---
 
+## ⌨️ Commands
+| Command               | Description                      |
+| --------------------- | -------------------------------- |
+| `/brandhider`         | Plugin info                      |
+| `/brandhider help`    | Command list                     |
+| `/brandhider version` | Plugin version                   |
+| `/brandhider reload`  | Reload config (**console only**) |
+
+--- 
+
 ## ⚙️ Configuration
 ```#
 #  _    _ _     _
@@ -43,3 +53,9 @@ custom-brand: 'BrandHider-3.0'
 # Colors are NOT allowed here (Minecraft clients will ignore them)
 motd-version: 'BrandHider-3.0'
 
+```
+--- 
+## Author
+Me.
+
+Idea from Plugin Hide Pro, paid plugin with more features
