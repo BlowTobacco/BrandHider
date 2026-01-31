@@ -1,4 +1,3 @@
-#
 #  _    _ _     _
 # | |  | (_)   | |
 # | |__| |_  __| | ___
@@ -6,13 +5,39 @@
 # | |  | | | (_| |  __/
 # |_|  |_|_|\__,_|\___|
 #
-# BrandHider v3.0 Made by BlowTobacco
-#
+# BrandHider v4.0
+# Made by BlowTobacco
 
-# This hides the server software in game (F3)
-# Colors ARE allowed here (HEX CODES OR ANY OTHER COLOR THAT ISN'T THE MINECRAFT DEFAULT https://htmlcolorcodes.com/minecraft-color-codes/ WILL NOT WORK)
-custom-brand: 'BrandHider-3.0'
+# If enabled, the brand will be animated
+# If false, only custom-brand will be used
+animated-brand: true
+
+# Static brand (used if animated-brand = false)
+# Supported: All minecraft legacy colors, &k, &l, &m, &n, &o, &r
+# Hex colors WILL NOT work due to Minecraft limitations
+custom-brand: '&cBrandHider-4.0'
 
 # This hides the server software in the MOTD / status websites
-# Colors are NOT allowed here (Minecraft clients will ignore them)
-motd-version: 'BrandHider-3.0'
+# Colors are NOT allowed here
+motd-version: 'BrandHider-4.0'
+
+# Update period for animation (milliseconds)
+# Lower = smoother but more packets
+animation-period: 1000
+
+# Animated brand frames
+# Uses MiniMessage-like formatting, BUT will be converted
+# Hex colors WILL NOT work due to Minecraft limitations
+brand-animation:
+  - '&4B&crandHider'
+  - '&fB&4r&candHider'
+  - '&fBr&4a&cndHider'
+  - '&fBra&4n&cdHider'
+  - '&fBran&4d&cHider'
+  - '&fBrand&4H&cider'
+  - '&fBrandH&4i&cder'
+  - '&fBrandHi&4d&cer'
+  - '&fBrandHid&4e&cr'
+  - '&fBrandHide&4r'
+
+
