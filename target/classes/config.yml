@@ -1,0 +1,18 @@
+#
+#  _    _ _     _
+# | |  | (_)   | |
+# | |__| |_  __| | ___
+# |  __  | |/ _` |/ _ \
+# | |  | | | (_| |  __/
+# |_|  |_|_|\__,_|\___|
+#
+# BrandHider v3.0 Made by BlowTobacco
+#
+
+# This hides the server software in game (F3)
+# Colors ARE allowed here (HEX CODES OR ANY OTHER COLOR THAT ISN'T THE MINECRAFT DEFAULT https://htmlcolorcodes.com/minecraft-color-codes/ WILL NOT WORK)
+custom-brand: 'BrandHider-3.0'
+
+# This hides the server software in the MOTD / status websites
+# Colors are NOT allowed here (Minecraft clients will ignore them)
+motd-version: 'BrandHider-3.0'

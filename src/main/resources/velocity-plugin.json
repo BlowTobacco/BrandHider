@@ -1,0 +1,10 @@
+{
+  "id": "brandhider",
+  "name": "BrandHider",
+  "version": "3",
+  "description": "Hides and customizes server brand",
+  "authors": [
+    "BlowTobacco"
+  ],
+  "main": "com.blowtobacco.brandhider.BrandHider"
+}
